@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary {
+  @apply bg-primary-brightRed hover:bg-primary-brightRed/90 text-neutral-veryLightGray shadow-primary-brightRed/40 px-6 py-2 text-sm rounded-full shadow-sm;
+}
+.nav__text {
+  @apply text-neutral-veryDarkBlue text-sm;
+}
+.paragraph {
+  @apply text-neutral-darkGrayishBlue lg:w-[20rem] w-[20rem]  sm:text-left;
+  line-height: 1.6rem;
+}
+.heading {
+  @apply sm:text-left lg:w-[28rem] text-neutral-veryDarkBlue font-extrabold text-4xl   text-center;
+  line-height: 2.8rem;
+}
