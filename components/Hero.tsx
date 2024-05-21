@@ -2,7 +2,10 @@ import Image from "next/image";
 import Button from "./Button";
 const Hero = () => {
   return (
-    <section className=" sm:grid-cols-2 grid items-center content-center">
+    <section
+      id="cta"
+      className=" sm:grid-cols-2 grid items-center content-center"
+    >
       <div className="sm:order-2">
         <Image
           src={"/illustration-intro.svg"}
